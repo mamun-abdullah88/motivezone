@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 15px;
+    font-family: $regularFont;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headingFont;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Reuseable Component
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.section-heading {
+    font-size: 30px;
+    color: $headingColor;
+}
+
+.section-descr {
+    font-size: 15px;
+    color: $textDark;
+}
+
+a.btn,
+button.btn {
+    background: $primaryColor;
+    padding: 10px 30px;
+    color: $textWhite;
+    border-radius: 4px;
+    border: none;
+    font-family: $regularFont;
+    font-size: 15px;
+    cursor: pointer;
+}
+
